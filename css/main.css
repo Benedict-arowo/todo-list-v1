@@ -1,0 +1,102 @@
+.mainWrapper {
+  margin-top: 30px;
+}
+
+.mainWrapper h3 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 900;
+  text-shadow: 1px 3px black;
+}
+
+.mainWrapper .app {
+  padding: 10px 0px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  min-height: 500px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.mainWrapper .appHeading {
+  margin: 5px auto 10px auto;
+}
+
+.mainWrapper .appHeading input {
+  font-size: 20px;
+  padding: 10px 0 10px 15px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.mainWrapper .appHeading button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid black;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: white;
+  margin-left: -3px;
+  text-transform: uppercase;
+  color: var(--textColor);
+  -webkit-transition: all .1s;
+  transition: all .1s;
+}
+
+.mainWrapper .appHeading button:active {
+  font-size: 21px;
+  color: #006f50;
+}
+
+.mainWrapper .appContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  margin: 30px auto;
+}
+
+.mainWrapper .appContainer .todoLists .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #006f50;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.mainWrapper .appContainer .todoLists .list p {
+  color: #006f50;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.mainWrapper .appContainer .todoLists .list i {
+  color: var(--textColor);
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 15px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.mainWrapper .appContainer .todoLists .list i:active {
+  color: #006f50;
+}
+/*# sourceMappingURL=main.css.map */
